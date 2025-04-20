@@ -35,7 +35,26 @@ Identificando o Three-way handshake (SYN, SYN-ACK, ACK)
 | Encerramento | Tratamento de KeyboardInterrupt e exceções genéricas para enviar /quit ao servidor antes de fechar o socket e sair de forma limpa |
 | Mensagens vazias sendo enviadas |	Ignoradas com `if not message.strip(): continue`, evitando flood desnecessário no chat |
 ---
- **(soluções imlementadas no código "cliente_chat_melhorado.py")**
+ **(soluções implementadas no código "cliente_chat_melhorado.py")**
 
 
 ###  Resultados dos testes de resiliência
+
+<img src="img/img6.png" alt="..."/>
+
+
+### Desafios Extra
+
+#### Atividade 1 - Modificar o servidor para registrar o timestamp de cada mensagem recebida e mostrar quanto tempo cada conexão permaneceu ativa.
+<img src="img/img7.png" alt="..."/>
+
+
+#### Atividade 2 - Adicionar um novo comando /whisper <usuário> <mensagem> que envia uma mensagem privada para um usuário específico
+
+Enviando uma mensagem para user_127.0.0.1_39396:
+
+<img src="img/img8.png" alt="..."/>
+
+user_127.0.0.1_39396 recebendo a mensagem:
+
+<img src="img/img9.png" alt="..."/>
